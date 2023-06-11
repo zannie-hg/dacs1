@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+:root { 
+  --peru: #ee4540;
+  --black: #222;
+  --white: #fff;
+  --light-black: #666;
+  --light-white: #ccc;
+  --light-bg: #f5f5f5;
+  --dark-bg: rgba(0, 0, 0, 0.7);
+  --border: 0.1rem solid #aaa;
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+* {
+  font-family: "Barlow Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.43, 1.1, 0.62, 1.08);
+}
+
+
+/*--------------------------------------------------------------
+# header
+--------------------------------------------------------------*/
+.custom-navbar {
+  z-index: 100;
+  background: linear-gradient(to right, #f7ad88, #f87197);
+}
+
+.header .navbar a {
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+  color: var(--light-black);
+  text-transform: uppercase;
+}
+
+.header .navbar .logout {
+  padding-right: 20px;
+}
+.header .navbar .logo span {
+  font-size: 1rem;
+  font-family: "Kalam", cursive;
+  color: #8e3305;
+  margin-left: -10px;
+}
+.header .navbar a:hover {
+  color: black;
+}
+.header .navbar ul {
+  color: rgb(98, 98, 98);
+}
+
+
+/*--------------------------------------------------------------
+# slide
+--------------------------------------------------------------*/
+@keyframes fadeIn {
+  0% {
+    transform: translateY(-4rem) scale(0);
+    opacity: 0;
+  }
+}
+
+
+ .slider #home-slide h1 {
+   font-size: 3vw;
+   font-family: "Kalam", cursive;
+   text-transform: uppercase;
+   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+   line-height: 1;
+   padding: 2rem 0;
+   animation: fadeIn 0.6s cubic-bezier(0.54, 1.3, 0.63, 1.34) 0.6s backwards;
+ }
+ .slider #home-slide p {
+   font-size: 2rem;
+   text-transform: capitalize;
+   color: white;
+   animation: fadeIn 0.6s cubic-bezier(0.54, 1.3, 0.63, 1.34) 0.4s backwards;
+ }
+ .slider #home-slide button span:hover {
+   background-color: #f7ad88;
+   color: white;
+   width: 50px;
+   height: 50px;
+   transition: background-color 0.3s ease;
+ }
+
+
+/*--------------------------------------------------------------
+# menu
+--------------------------------------------------------------*/
+.menu {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+
+  
+}
+
+.menu nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu nav ul li {
+  margin-right: 10px;
+}
+
+.menu nav ul li:last-child {
+  margin-right: 0;
+}
+
+.menu nav ul li a:hover {
+   color:rgb(204, 58, 5);
+}
+.menu nav ul li:hover {
+ border-bottom: 3px solid rgb(255, 41, 41);
+
+}
+.menu nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.menu nav ul li a:hover {
+  color:rgb(204, 58, 5)
+}
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+.about {
+  margin-top: 3rem;
+}
+
+
+h1.heading {
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: #505050;
+  text-align: center;
+}
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+}
+
+/* card */
+.wrapper {
+   display: table;
+   height: 100%;
+   width: 100%;
+ }
+ 
+ .container-fostrap {
+   display: table-cell;
+   padding: 1em;
+   text-align: center;
+   vertical-align: middle;
+ }
+ .fostrap-logo {
+   width: 100px;
+   margin-bottom: 15px;
+ }
+ h1.heading {
+   color: #fff;
+   font-size: 1.15em;
+   font-weight: 900;
+   margin: 0 0 0.5em;
+   color: #505050;
+   text-align: center;
+ }
+ @media (min-width: 450px) {
+   h1.heading {
+     font-size: 3.55em;
+   }
+ }
+ @media (min-width: 760px) {
+   h1.heading {
+     font-size: 3.05em;
+   }
+ }
+ @media (min-width: 900px) {
+   h1.heading {
+     font-size: 3.25em;
+     margin: 0 0 0.3em;
+   }
+ }
+ .card {
+   display: block;
+   margin-bottom: 20px;
+   line-height: 1.42857143;
+   background-color: #fff;
+   border-radius: 2px;
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+   transition: box-shadow 0.25s;
+ }
+ .card:hover {
+   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .img-card {
+   width: 100%;
+   height: 200px;
+   border-top-left-radius: 2px;
+   border-top-right-radius: 2px;
+   display: block;
+   overflow: hidden;
+ }
+ .img-card img {
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+   transition: all 0.25s ease;
+ }
+ .card-content {
+   padding: 15px;
+   text-align: left;
+ }
+ .card-title {
+   margin-top: 0px;
+   font-weight: 700;
+   font-size: 1.65em;
+ }
+ .card-title a {
+   color: #000;
+   text-decoration: none ;
+ }
+ .card-read-more {
+   border-top: 1px solid #d4d4d4;
+ }
+ .card-read-more a {
+   text-decoration: none ;
+   padding: 10px;
+   font-weight: 600;
+   color:rgb(222, 71, 17);
+   text-transform: uppercase;
+ }
+ .card-read-more a:hover{
+   color:rgb(120, 35, 3);
+
+ }
+
+
+/*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+.footer-menu a {
+  text-decoration: none;
+  color: rgb(225, 222, 222);
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+.footer-menu a:hover {
+  color: rgb(255, 6, 89);
+}
+.btn-link i:hover {
+  color: rgb(255, 6, 89);
+}
+
+
+
+
+
+
+ 
