@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="travel/hanoi.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <title>Ha Giang Tour</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <section class="header">
+      <nav class="navbar navbar-expand-sm custom-navbar position-fixed w-100">
+        <div class="container">
+          <a class="navbar-brand logo" href="#">
+            <img
+              src="cuisine/images/logo.png"
+              alt="Logo"
+              width="50"
+              height="50"
+            />
+            <span>Lifestyle</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="travel.html">Travel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="culture.html">Culture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cuisine.html">Cuisine</a>
+              </li>
+
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- tour -->
+    <section class="tour">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-lg-5 mt-5">
+            <div class="card mb-3">
+              <img
+                class="card-img img-fluid"
+                src="travel/images/dong_van.jpg"
+                alt="Card image cap"
+                id="product-detail"
+              />
+            </div>
+            <div class="row">
+              <div class="col-1 align-self-center">
+                <a
+                  href="#multi-item-example"
+                  role="button"
+                  data-bs-slide="prev"
+                >
+                  <i class="text-dark fas fa-chevron-left"></i>
+                </a>
+              </div>
+
+              <div
+                id="multi-item-example"
+                class="col-10 carousel slide carousel-multi-item"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner product-links-wap" role="listbox">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="travel/images/ha_giang1.jpg"
+                            alt="Product Image 1"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="travel/images/ha_giang.jpg"
+                            alt="Product Image 2"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="travel/images/sung_la.jpg"
+                            alt="Product Image 3"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="travel/images/tho_cam.jpg"
+                            alt="Product Image 4"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="travel/images/ha_noi_1.jpg"
+                            alt="Product Image 5"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="travel/images/dong_van.jpg"
+                            alt="Product Image 6"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-1 align-self-center">
+                <a
+                  href="#multi-item-example"
+                  role="button"
+                  data-bs-slide="next"
+                >
+                  <i class="text-dark fas fa-chevron-right"></i>
+                </a>
+              </div>
+              <!--End Controls-->
+            </div>
+          </div>
+          <div class="col-lg-7 mt-5">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="h2">Ha Giang Tour</h1>
+                <!-- <p class="h3 py-2">$25.00</p> -->
+                <p class="py-2">
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  
+                </p>
+               
+
+                <h6>Ha Giang</h6>
+                <p>
+                  Ha Giang is a province located in northern Vietnam, nestled in the Northeast Highlands and bordering China. It is renowned for its majestic mountainous landscapes, breathtaking natural beauty, and the rich cultural diversity of its ethnic minority groups.
+                </p>
+                <p>
+                  Ha Giang is a province located in northern Vietnam, nestled in the Northeast Highlands and bordering China. It is renowned for its majestic mountainous landscapes, breathtaking natural beauty, and the rich cultural diversity of its ethnic minority groups.
+                </p>
+                <p>
+                  In addition to its stunning natural landscapes, Hà Giang also boasts a unique cultural heritage of ethnic communities. The villages of the Mông, Dao, H'Mông, and Lô Lô people showcase their distinct traditions, from traditional costumes and customs to music and traditional handicrafts. Travelers can immerse themselves in this rich cultural tapestry by participating in festivals, visiting local markets, and engaging in traditional folk games.
+                </p>
+                <p>
+                  Beyond nature and culture, Ha Giang is home to ancient architectural treasures and historical sites, such as the Tả Phìn Pagoda complex and the Phương Thiện Cave system. This destination offers an intriguing and unique experience for those interested in exploring local history and architecture.
+                </p>
+                <p>
+                  Ha Giang takes pride in being an unmissable travel destination in Vietnam, offering an array of adventurous activities, cultural encounters, and breathtaking scenery that will leave visitors with lasting memories.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-2">
+        <div class="row text-center py-3">
+          <div class="col-lg-6 m-auto">
+            <h1 class="heading">HA GIANG TOURS : 4 TOURS</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+              <a href="#">
+                <img
+                  src="travel/images/ha_giang1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+            </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  >HA GIANG - MOC CHAU - SAPA - DONG VAN ANCIENT TOWN ( 4 DAYS /
+                  3 NIGHTS)</a
+                >
+                <br>
+                <i class="fas fa-walking text-primary"></i
+                ><span> Airplanes & Automobiles</span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br>
+                <button class="btn btn-danger btn-sm float-end pb-2">Book seats</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+              <a href="#">
+                <img
+                  src="travel/images/dong_van.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+            </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+
+                    <i class="text-muted fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  >DONG VAN STONE PLATEAU - DONG VAN ANCIENT TOWN, HA GIANG</a
+                >
+                <br>
+                <i class="fas fa-walking text-primary"></i
+                ><span> Automobile </span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br>
+                <button class="btn btn-danger btn-sm float-end pb-2">Book seats</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+              <a href="#">
+                <img
+                  src="travel/images/sung_la.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  >FLAG TOWER OF LUNG CU - SUNG LA VALLEY - MA PI LENG PASS</a
+                >
+
+                <br>
+                <i class="fas fa-walking text-primary"></i
+                ><span> Airplanes & Automobiles</span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br>
+                <button class="btn btn-danger btn-sm float-end pb-2">Book seats</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+              <a href="#">
+                <img
+                  src="travel/images/tho_cam.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  >LUNG TAM WEAVING VILLAGE - TWIN MOUNTAINS OF QUAN BA 1 DAYS</a
+                >
+               <br>
+                <i class="fas fa-walking text-primary"></i
+                ><span> Automobiles</span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br>
+                <button class="btn btn-danger btn-sm float-end pb-2">Book seats</button>
+
+                <!-- <p class="text-muted">Reviews (1274)</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-2">
+        <div class="row text-center py-3">
+          <div class="col-lg-6 m-auto">
+            <h1 class="heading">OTHER HA GIANG TOURS: 4 TOURS</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+              <a href="#">
+                <img
+                  src="travel/images/hue.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  >MOC CHAU - HA GIANG - HUE (3 DAYS / 2 NIGHTS)</a
+                >
+                <br>
+                <i class="fas fa-walking text-primary"></i
+                ><span> Airplanes & Automobiles</span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br>
+                <button class="btn btn-danger btn-sm float-end pb-2">Book seats</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+              <a href="#">
+                <img
+                  src="travel/images/hn_nt_dl.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+
+                    <i class="text-muted fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  >HA NOI - NHA TRANG - DA LAT (3 DAYS / 2 NIGHTS)</a
+                >
+                <br>
+                <i class="fas fa-walking text-primary"></i
+                ><span> Automobile </span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br>
+                <button class="btn btn-danger btn-sm float-end pb-2">Book seats</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+              <a href="#">
+                <img
+                  src="travel/images/cau_rong.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  >NHA TRANG - DA NANG TOURISM (3 DAYS / 2 NIGHTS)</a
+                >
+
+                <br>
+                <i class="fas fa-walking text-primary"></i
+                ><span> Airplanes & Automobiles</span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br>
+                <button class="btn btn-danger btn-sm float-end pb-2">Book seats</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+              <a href="#">
+                <img
+                  src="travel/images/hcm_phuquoc.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  > CA MAU - TP.HO CHI MINH - NHA TRANG (3 DAYS / 2 NIGHTS)</a
+                >
+               <br>
+                <i class="fas fa-walking text-primary"></i
+                ><span> Automobiles</span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br>
+                <button class="btn btn-danger btn-sm float-end pb-2">Book seats</button>
+
+                <!-- <p class="text-muted">Reviews (1274)</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <section class="footer pt-5">
+      <div class="text-center mt-5 custom-navbar">
+        <div class="pt-5 footer-menu">
+          <a href="index.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#wrapper">Blogs</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center text-dark p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/"
+            >admin@vku.udn.vn</a
+          >
+        </div>
+        <!-- Copyright -->
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="travel/hanoi.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

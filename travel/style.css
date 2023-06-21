@@ -161,7 +161,24 @@ h1.heading {
     margin: 0 0 0.3em;
   }
 }
+/*--------------------------------------------------------------
+# map
+--------------------------------------------------------------*/
 
+.card-item{
+  border-radius: 2rem;
+}
+.img-360 img {
+  justify-content: center;
+  /* border: none; */
+  border-radius: 1.2rem;
+
+  transition: transform 0.3s ease;
+}
+.img-360 img:hover {
+  transform: scale(1.2);
+
+}
 /*--------------------------------------------------------------
 # card
 --------------------------------------------------------------*/
@@ -210,4 +227,8 @@ h1.heading {
 }
 .btn-link i:hover {
   color: rgb(255, 6, 89);
+}
+
+.hide{
+  display: none;
 }

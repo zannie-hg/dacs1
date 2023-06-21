@@ -54,16 +54,6 @@
   color: rgb(98, 98, 98);
 }
 
-/* Đặt màu chữ cho các mục được chọn trong dropdown-menu */
-.dropdown-menu .dropdown-item.active,
-.dropdown-menu .dropdown-item:hover {
-  color: #000;
-  background: linear-gradient(to right, #f7ad88, #f87197);
- 
-}
-.dropdown-menu .dropdown-item {
-  color: #333333; /* Thay thế mã màu bằng mã màu của menu chính */
-}
 /*--------------------------------------------------------------
 # slide
 --------------------------------------------------------------*/
@@ -96,6 +86,7 @@
   height: 50px;
   transition: background-color 0.3s ease;
 }
+
 
 /*--------------------------------------------------------------
 # Why Us
@@ -299,9 +290,7 @@
 }
 
 @media (max-width: 992px) {
-  .why-us .img {
-    min-height: 400px;
-  }
+  
   .why-us .content {
     padding-top: 30px;
   }
@@ -310,11 +299,6 @@
   }
 }
 
-@media (max-width: 575px) {
-  .why-us .img {
-    min-height: 200px;
-  }
-}
 
 /*--------------------------------------------------------------
 # wrapper
@@ -333,7 +317,6 @@
 }
 
 h1.heading {
-  font-size: 1.15em;
   font-weight: 900;
   margin: 0 0 0.5em;
   color: #505050;
@@ -351,7 +334,7 @@ h1.heading {
 }
 @media (min-width: 900px) {
   h1.heading {
-    font-size: 3.25em;
+    font-size: 3rem;
     margin: 0 0 0.3em;
   }
 }
@@ -603,7 +586,28 @@ h1.heading {
     transform: rotate(360deg);
   }
 }
+.combo-box1 {
+            position: relative;
+            width: 100%;
+            height: 50%;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+        }
+        .combo-box1 img {
+            width: 100%;
+            height: 100%;
 
+            transition: transform 0.3s ease-in-out;
+        }
+        .combo-box1:hover img {
+            transform:translateX(-10px) rotate(-2deg) scale(1.1);/*ảnh sẽ phóng to và nghiêng*/
+        }
+        .combo-box1:hover .overlay-image img {
+            transform: scale(1); /* Thay đổi giá trị scale thành 1 */
+        }
+        .card:hover{
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+        }       
 /*--------------------------------------------------------------
 # footer
 --------------------------------------------------------------*/

@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="travel/hanoi.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <title>Thua Thien Hue Tour</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <section class="header">
+      <nav class="navbar navbar-expand-sm custom-navbar position-fixed w-100">
+        <div class="container">
+          <a class="navbar-brand logo" href="#">
+            <img
+              src="cuisine/images/logo.png"
+              alt="Logo"
+              width="50"
+              height="50"
+            />
+            <span>Lifestyle</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="travel.html">Travel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="culture.html">Culture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cuisine.html">Cuisine</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- tour -->
+    <section class="tour">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-lg-5 mt-5">
+            <div class="card mb-3">
+              <img
+                class="card-img img-fluid"
+                src="travel/images/chodongba.jpg"
+                alt="Card image cap"
+                id="product-detail"
+              />
+            </div>
+            <div class="row">
+              <div class="col-1 align-self-center">
+                <a
+                  href="#multi-item-example"
+                  role="button"
+                  data-bs-slide="prev"
+                >
+                  <i class="text-dark fas fa-chevron-left"></i>
+                </a>
+              </div>
+
+              <div
+                id="multi-item-example"
+                class="col-10 carousel slide carousel-multi-item"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner product-links-wap" role="listbox">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="travel/images/dai_noi.jpg"
+                            alt="Product Image 1"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="travel/images/chua-thien-mu.jpg"
+                            alt="Product Image 2"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="travel/images/quochochue.jpg"
+                            alt="Product Image 3"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="travel/images/chodongba.jpg"
+                            alt="Product Image 4"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="travel/images/nhavuon.jpg"
+                            alt="Product Image 5"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="travel/images/thanhco.jpg"
+                            alt="Product Image 6"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-1 align-self-center">
+                <a
+                  href="#multi-item-example"
+                  role="button"
+                  data-bs-slide="next"
+                >
+                  <i class="text-dark fas fa-chevron-right"></i>
+                </a>
+              </div>
+              <!--End Controls-->
+            </div>
+          </div>
+          <div class="col-lg-7 mt-5">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="h2">Thua Thien Hue Tour</h1>
+                <!-- <p class="h3 py-2">$25.00</p> -->
+                <p class="py-2">
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                </p>
+
+                <h6>Thua Thien Hue</h6>
+                <p>
+                  Thua Thien Hue, located in central Vietnam, is a city rich in
+                  history, culture, and natural beauty. Known as the Imperial
+                  City, it was once the capital of the Nguyen Dynasty, and
+                  remnants of its royal past can still be seen today.
+                </p>
+                <p>
+                  Immerse yourself in the grandeur of the UNESCO World Heritage
+                  Site, the Imperial Citadel, which showcases stunning
+                  architecture and palaces. Explore the royal tombs scattered
+                  along the Perfume River, each with its unique design and
+                  significance.
+                </p>
+                <p>
+                  Thua Thien Hue is also a center of Vietnamese cuisine, with
+                  its own distinct flavors and specialties. Indulge in the
+                  famous local dishes, such as bún bò Huế (spicy beef noodle
+                  soup) and bánh khoái (Hue-style savory pancakes).
+                </p>
+                <p>
+                  Nature lovers will be enchanted by the lush landscapes
+                  surrounding Thừa Thiên Huế. Take a boat ride along the Perfume
+                  River, visit the Thien Mu Pagoda perched on a hill, or explore
+                  the peaceful countryside and its picturesque rice fields and
+                  villages.
+                </p>
+                <p>
+                  With its rich history, cultural heritage, and stunning natural
+                  scenery, Thừa Thiên Huế offers a captivating and memorable
+                  experience for travelers. Discover the charm of this ancient
+                  city and immerse yourself in its unique blend of tradition and
+                  modernity.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-2">
+        <div class="row text-center py-3">
+          <div class="col-lg-6 m-auto">
+            <h1 class="heading">THUA THIEN HUE TOURS : 4 TOURS</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+                <a href="#">
+                  <img
+                    src="travel/images/dai_noi.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  >IMPERIAL CITY OF HUE - TOMB OF EMPEROR TU DUC - TOMB OF
+                  EMPEROR MINH MANG
+                </a>
+                <br />
+                <i class="fas fa-walking text-primary"></i
+                ><span> Airplanes & Automobiles</span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br />
+                <button class="btn btn-danger btn-sm float-end pb-2">
+                  Book seats
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+                <a href="#">
+                  <img
+                    src="travel/images/chua-thien-mu.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+
+                    <i class="text-muted fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                >
+                  THIEN MU PAGODA - PERFUME RIVER - TRUONG TIEN BRIDGE ( 1 DAYS
+                  / 0 NIGHTS )
+                </a>
+                <br />
+                <i class="fas fa-walking text-primary"></i
+                ><span> Automobile </span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br />
+                <button class="btn btn-danger btn-sm float-end pb-2">
+                  Book seats
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+                <a href="#">
+                  <img
+                    src="travel/images/chodongba.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                >
+                  NGU BINH MOUNTAIN - DONG BA MARKET - HUE WALKING STREET ( 1
+                  DAYS / 1 NIGHTS )
+                </a>
+
+                <br />
+                <i class="fas fa-walking text-primary"></i
+                ><span> Airplanes & Automobiles</span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br />
+                <button class="btn btn-danger btn-sm float-end pb-2">
+                  Book seats
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+                <a href="#">
+                  <img
+                    src="travel/images/quochochue.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  >QUOC HOC HIGH SCHOOL - PHU CAM CATHEDRAL - HUONG THUY XUAN
+                  VILLAGE
+                </a>
+                <br />
+                <i class="fas fa-walking text-primary"></i
+                ><span> Automobiles</span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br />
+                <button class="btn btn-danger btn-sm float-end pb-2">
+                  Book seats
+                </button>
+
+                <!-- <p class="text-muted">Reviews (1274)</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-2">
+        <div class="row text-center py-3">
+          <div class="col-lg-6 m-auto">
+            <h1 class="heading">OTHER THUA THIEN HUE TOURS: 4 TOURS</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+                <a href="#">
+                  <img
+                    src="travel/images/nhavuon.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  >DA NANG - SAPA - HUE (3 DAYS / 2 NIGHTS)</a
+                >
+                <br />
+                <i class="fas fa-walking text-primary"></i
+                ><span> Airplanes & Automobiles</span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br />
+                <button class="btn btn-danger btn-sm float-end pb-2">
+                  Book seats
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+                <a href="#">
+                  <img
+                    src="travel/images/da_lat.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+
+                    <i class="text-muted fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  >DA LAT - DA NANG - HUE (3 DAYS / 2 NIGHTS)</a
+                >
+                <br />
+                <i class="fas fa-walking text-primary"></i
+                ><span> Automobile </span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br />
+                <button class="btn btn-danger btn-sm float-end pb-2">
+                  Book seats
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+                <a href="#">
+                  <img
+                    src="travel/images/thanhco.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                  >HUE - QUANG TRI - QUANG BINH (3 DAYS / 2 NIGHTS)</a
+                >
+
+                <br />
+                <i class="fas fa-walking text-primary"></i
+                ><span> Airplanes & Automobiles</span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br />
+                <button class="btn btn-danger btn-sm float-end pb-2">
+                  Book seats
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card h-100">
+              <div class="box1">
+                <a href="#">
+                  <img
+                    src="travel/images/nam_cang.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="h5 text-decoration-none text-dark font-weight-bold"
+                >
+                  CA MAU - TP.HO CHI MINH - HUE (3 DAYS / 2 NIGHTS)</a
+                >
+                <br />
+                <i class="fas fa-walking text-primary"></i
+                ><span> Automobiles</span><br />
+                <i class="fas fa-calendar-alt text-primary"></i
+                ><span>&nbsp;2023</span> <br />
+                <button class="btn btn-danger btn-sm float-end pb-2">
+                  Book seats
+                </button>
+
+                <!-- <p class="text-muted">Reviews (1274)</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer pt-5">
+      <div class="text-center mt-5 custom-navbar">
+        <div class="pt-5 footer-menu">
+          <a href="index.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#wrapper">Blogs</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center text-dark p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/"
+            >admin@vku.udn.vn</a
+          >
+        </div>
+        <!-- Copyright -->
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="travel/hanoi.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="bookseats.css" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+      integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Book Seats</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <section class="header">
+      <nav class="navbar navbar-expand-sm custom-navbar position-fixed w-100">
+        <div class="container">
+          <a class="navbar-brand logo" href="#">
+            <img
+              src="cuisine/images/logo.png"
+              alt="Logo"
+              width="50"
+              height="50"
+            />
+            <span>Lifestyle</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="travel.html">Travel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="culture.html">Culture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cuisine.html">Cuisine</a>
+              </li>
+
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- body -->
+    <section>
+      <div class="booktour-wrapper pt-5">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-lg-9 col-md-12">
+              <div class="pay-product border p-2">
+                <h3 class="text-uppercase px-1">cart details</h3>
+                <div class="card m-2 bg-light">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        src="travel/images/binh_ba.jpeg"
+                        class="card-img p-3"
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h3 class="card-title font-weight-bold">
+                          BINH BA ISLAND - CAM RANH - NHA TRANG TOUR 
+                        </h3>
+                        <img
+                          style="width: 1rem"
+                          src="https://venustravel.webtravel.vn/Assets/images/icon/human.svg"
+                        />
+                        <span
+                          >Departure point :
+                          <span class="font-weight-bold">NhaTrang</span></span
+                        ><br />
+                        <img
+                          style="width: 1rem"
+                          src="https://venustravel.webtravel.vn/Assets/images/icon/hm-avt.svg"
+                        />
+                        <span
+                          >Vehicles:<span class="font-weight-bold">
+                            Airplane & Automotive</span
+                          ></span
+                        ><br />
+                        <img
+                          style="width: 1rem"
+                          src="https://venustravel.webtravel.vn/Assets/images/icon/location.svg"
+                        />
+                        <span
+                          >Number of seats:
+                          <span class="font-weight-bold">4</span></span
+                        ><br />
+                        <img
+                          style="width: 1rem"
+                          src="https://venustravel.webtravel.vn/Assets/images/icon/clock.svg"
+                        />
+                        <span
+                          >Duration:<span class="font-weight-bold"
+                            >4 Days / 3 Nights</span
+                          ></span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pay-form">
+                  <h4 class="font-weight-bold text-danger">Contact Info</h4>
+                  <p>
+                    Information marked
+                    <span class="text-danger">with (*)</span> is required enter.
+                    Please Please carefully check
+                    <strong>your email and phone</strong>
+                    information to avoid errors.
+                  </p>
+
+                  <div class="payform__info payform__item">
+                    <div class="form-group col-md-4">
+                      <label class="font-weight-bold"
+                        >Full name <span class="text-danger">(*)</span></label
+                      >
+                      <input
+                        type="text"
+                        class="form-control custom-placeholder"
+                        placeholder="Please enter your full name"
+                        required
+                      />
+                    </div>
+
+                    <div class="form-group col-md-4">
+                      <label class="font-weight-bold">Country</label>
+                      <select class="form-control">
+                        <option value="">--Select country--</option>
+                        <option value="vn">Việt Nam</option>
+                        <option value="us">United States</option>
+                        <option value="jp">Japan</option>
+                        <option value="fr">France</option>
+                        <!-- Thêm các option khác tùy theo nhu cầu -->
+                      </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label class="font-weight-bold">Town</label>
+                      <select class="form-control">
+                        <option value="">-- Select town --</option>
+                        <option value="hn">Hà Nội</option>
+                        <option value="hcm">Hồ Chí Minh</option>
+                        <option value="dn">Đà Nẵng</option>
+                        <option value="hp">Thừa Thiên Huế</option>
+                        <option value="hp">Đà Nẵng</option>
+                        <option value="hp">Nha Trang</option>
+                        <option value="hp">Vinh</option>
+                        <option value="hp">Quảng Nam</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label class="font-weight-bold">Address</label>
+                      <input
+                        type="text"
+                        class="form-control custom-placeholder"
+                        placeholder="Please enter your address"
+                        required
+                      />
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label class="font-weight-bold">Phone number</label>
+                      <input
+                        type="text"
+                        class="form-control custom-placeholder"
+                        placeholder="Please enter your phone number"
+                        required
+                      />
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label class="font-weight-bold"
+                        >Email <span class="text-danger">(*)</span></label
+                      >
+                      <input
+                        type="text"
+                        class="form-control custom-placeholder"
+                        placeholder="Please enter your email"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="payment-methods payform__item">
+                    <h3 class="payform-head font-weight-bold">
+                      PAYMENT METHODS
+                    </h3>
+                    <div class="payment-methods__detail">
+                      <div class="bankpay-box">
+                        <p class="payform-note">
+                          You can deposit cash directly at bank transaction
+                          offices row transfer via ATM or transfer via internet
+                          banking, bank Plus.
+                        </p>
+                        <div
+                          class="col-lg-6 col-sm-4 p-3 text-center custom-pay"
+                        >
+                          <p class="text-uppercase">
+                            <strong>SAMPLE CONTENT TRANSFER:</strong>
+                          </p>
+                          <p class="text-uppercase">
+                            "NGUYEN VAN A, contents of the transfer"
+                          </p>
+                          <p class="text-uppercase">Example:</p>
+                          <p class="text-uppercase">
+                            "NGUYEN VAN, TT TIEN HOTEL ROOM"
+                          </p>
+                          <p class="text-uppercase">
+                            "NGUYEN VAN A, TT Cau Giay Hotel"
+                          </p>
+                        </div>
+                        <strong class="text-primary"
+                          >Venus Travel bank account:</strong
+                        >
+                        <ul class="nav nav-banks">
+                          <li class="nav-item nav-bank__item">
+                            <a
+                              class="nav-link active"
+                              data-toggle="pill"
+                              href="#"
+                            >
+                              <img
+                                class="col-lg-6 col-md-3 border"
+                                src="https://venustravel.webtravel.vn/Files/Images/book-tour/logo-mb.png"
+                                alt=""
+                              />
+                            </a>
+                          </li>
+                        </ul>
+
+                        <div class="tab-bank__content">
+                          <div class="tab-pane tab-bank__pane active" id="home">
+                            <p>
+                              Military Commercial Joint Stock Bank - Hanoi
+                              Branch
+                            </p>
+                            <p></p>
+                            <p>STK : 091168398888</p>
+                            <p>CTK : Venus Travel Company</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center mb-4">
+                    <button class="btn btn-primary font-weight-bold">
+                      ABATE
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12 child-2">
+              <div class="pay-bar sticky-top">
+                <h3
+                  class="text-uppercase text-white p-2 font-weight-bold text-center heading"
+                >
+                  YOUR SHOPPING CART
+                </h3>
+                <p class="nametour-bar">
+                  <strong>
+                    BINH BA ISLAND - CAM RANH - NHA TRANG TOUR
+                  </strong>
+                </p>
+                <ul class="paybar__info border-bottom text-start">
+                  <img
+                    style="width: 1rem"
+                    src="https://venustravel.webtravel.vn/Assets/images/icon/location.svg"
+                  />
+                  <span>Departure Point: <strong>NhaTrang</strong></span>
+                  <br />
+                  <img
+                    style="width: 1rem"
+                    src="https://venustravel.webtravel.vn/Assets/images/icon/hm-avt.svg"
+                  />
+                  <span>Duration: <strong>4 Days / 3 Nights</strong></span>
+                  <br />
+                  <img
+                    style="width: 1rem"
+                    src="https://venustravel.webtravel.vn/Assets/images/icon/human.svg"
+                  />
+                  <span>Vehicle: <strong>Airplane & Automotive</strong> </span>
+                </ul>
+                <div class="paybar-price text-center">
+                  <p class="font-weight-bold text-warning">
+                    Total Funds<span class="text-danger font-weight-bold">
+                      <input
+                        style="display: none"
+                        id="Price"
+                        type="number"
+                        name="Price"
+                      />
+                      <span
+                        class="price-total"
+                        name="Price"
+                        data-format="currency"
+                        >3,200,000</span
+                      >
+                      đ
+                    </span>
+                  </p>
+                </div>
+
+                <button class="btn container-fluid">Apply</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section class="footer pt-5">
+      <div class="text-center mt-5 custom-navbar">
+        <div class="pt-5 footer-menu">
+          <a href="index.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#wrapper">Blogs</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center text-dark p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/"
+            >admin@vku.udn.vn</a
+          >
+        </div>
+        <!-- Copyright -->
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="giucho1.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

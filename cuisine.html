@@ -76,7 +76,7 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="home.html">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="travel.html">Travel</a>
@@ -87,17 +87,13 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Cuisine</a>
               </li>
-
-              <li class="nav-item">
-                <a class="nav-link logout" href="#">Logout</a>
-              </li>
             </ul>
           </div>
         </div>
       </nav>
     </section>
     <!-- body -->
-    <section class="slider" id="home">
+    <section class="slider" id="slider">
       <!-- Carousel -->
       <div id="home-slide" class="carousel slide" data-bs-ride="carousel">
         <!-- Indicators/dots -->
@@ -133,66 +129,48 @@
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              src="cuisine/images/slide1.jpg"
-              alt=""
-              class="d-block w-100 h-60"
-            />
+            <img src="cuisine/images/slide1.png" alt="" class="d-block w-100" />
             <div class="carousel-caption">
               <h1>Vietnam Cuisine</h1>
-              <p>Low fat in each cooking</p>
+              <p class="d-none d-sm-block">Low fat in each cooking</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img
-            src="cuisine/images/slide2.jpg"
-
-              alt=""
-              class="d-block w-100 h-60"
-            />
+            <img src="cuisine/images/slide2.png" alt="" class="d-block w-100" />
             <div class="carousel-caption">
               <h1>Vietnam Cuisine</h1>
 
-              <p>White rice seeds before cooking</p>
+              <p class="d-none d-sm-block">White rice seeds before cooking</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img
-            src="cuisine/images/slide3.jpg"
-
-              alt=""
-              class="d-block w-100 h-60"
-            />
+            <img src="cuisine/images/slide3.png" alt="" class="d-block w-100" />
             <div class="carousel-caption">
               <h1>Vietnam Cuisine</h1>
 
-              <p>Fish sauce, a typical sauce of Vietnamese cooking</p>
+              <p class="d-none d-sm-block">
+                Fish sauce, a typical sauce of Vietnamese cooking
+              </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img
-            src="cuisine/images/slide4.jpg"
-
-              alt=""
-              class="d-block w-100 h-60"
-            />
+            <img src="cuisine/images/slide4.png" alt="" class="d-block w-100" />
             <div class="carousel-caption">
               <h1>Vietnam Cuisine</h1>
 
-              <p>Banh Beo at Banh Beo Ba Do restaurant in Hue City</p>
+              <p class="d-none d-sm-block">
+                Banh Beo at Banh Beo Ba Do restaurant in Hue City
+              </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img
-            src="cuisine/images/slide5.png"
-
-              alt=""
-              class="d-block w-100 h-60"
-            />
+            <img src="cuisine/images/slide5.png" alt="" class="d-block w-100" />
             <div class="carousel-caption">
               <h1>Vietnam Cuisine</h1>
 
-              <p>Beef noodle – The most popular breakfast in Vietnam</p>
+              <p class="d-none d-sm-block">
+                Beef noodle – The most popular breakfast in Vietnam
+              </p>
             </div>
           </div>
         </div>
@@ -220,7 +198,7 @@
       <div class="pt-5 mb-4">
         <nav>
           <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="#slider">Home</a></li>
             <li><a id="article" href="#about">About</a></li>
             <li><a href="#order">Order</a></li>
             <li><a href="#food">Food Menu</a></li>
@@ -304,7 +282,7 @@
           <div class="row" style="height: 400px">
             <div class="col-md-6 maps">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.7332975515756!2d108.24978007377474!3d15.975298241948362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142108997dc971f%3A0x1295cb3d313469c9!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgVGjDtG5nIHRpbiB2w6AgVHJ1eeG7gW4gdGjDtG5nIFZp4buHdCAtIEjDoG4!5e0!3m2!1svi!2s!4v1684405670655!5m2!1svi!2s"
                 frameborder="0"
                 style="border: 0; height: 500px"
                 allowfullscreen
@@ -429,7 +407,7 @@
                   data-bs-toggle="pill"
                   href="#tab-2"
                 >
-                <i class="fa fa-utensils fa-2x text-primary"></i>
+                  <i class="fa fa-utensils fa-2x text-primary"></i>
 
                   <div class="ps-3">
                     <small class="text-body">Special</small>
@@ -655,7 +633,6 @@
                         >
                           <span>Pho</span>
                           <span class="text-primary">$1.3 - $2.2</span>
-
                         </h5>
                         <small class="fst-italic"
                           >Noodles or vermicelli are paired with beef, chicken
@@ -679,7 +656,6 @@
                         >
                           <span>Bread</span>
                           <span class="text-primary">$1.3 - $2.2</span>
-
                         </h5>
                         <small class="fst-italic"
                           >Bread rolls filled with meat, pate, raw vegetables
@@ -703,7 +679,6 @@
                         >
                           <span>Bun cha</span>
                           <span class="text-primary">$0.87 - $1.74 </span>
-
                         </h5>
                         <small class="fst-italic">
                           Vermicelli, grilled pork, grilled spring rolls and raw
@@ -727,10 +702,10 @@
                         >
                           <span>Broken rice</span>
                           <span class="text-primary">$0.87 - $1.74 </span>
-
                         </h5>
                         <small class="fst-italic"
-                          >Broken rice has grilled pork, eggs, cucumber and fish sauce.</small
+                          >Broken rice has grilled pork, eggs, cucumber and fish
+                          sauce.</small
                         >
                       </div>
                     </div>
@@ -749,10 +724,11 @@
                         >
                           <span>Salad rolls</span>
                           <span class="text-primary">$1.3</span>
-
                         </h5>
                         <small class="fst-italic"
-                          >Rice paper rolls filled with shrimp, meat, raw vegetables and spices, often served with sweet and sour fish sauce.</small
+                          >Rice paper rolls filled with shrimp, meat, raw
+                          vegetables and spices, often served with sweet and
+                          sour fish sauce.</small
                         >
                       </div>
                     </div>
@@ -771,10 +747,10 @@
                         >
                           <span>Pancakes</span>
                           <span class="text-primary">$0.65 - $1.3</span>
-
                         </h5>
                         <small class="fst-italic"
-                          >Crispy pancakes are made from rice flour, shrimp, pork, spices and raw vegetables.</small
+                          >Crispy pancakes are made from rice flour, shrimp,
+                          pork, spices and raw vegetables.</small
                         >
                       </div>
                     </div>
@@ -793,10 +769,10 @@
                         >
                           <span>Crab noodle soup</span>
                           <span class="text-primary">$1.3 - $2.2</span>
-
                         </h5>
                         <small class="fst-italic"
-                          >Rice noodles served with crab broth, tomato, ketchup, patties and raw vegetables.</small
+                          >Rice noodles served with crab broth, tomato, ketchup,
+                          patties and raw vegetables.</small
                         >
                       </div>
                     </div>
@@ -815,10 +791,11 @@
                         >
                           <span>Rolls</span>
                           <span class="text-primary">$1.3 - $2.6</span>
-
                         </h5>
                         <small class="fst-italic"
-                          >Thin rolls filled with meat, mushrooms and raw vegetables, served with sweet and sour fish sauce.</small
+                          >Thin rolls filled with meat, mushrooms and raw
+                          vegetables, served with sweet and sour fish
+                          sauce.</small
                         >
                       </div>
                     </div>
@@ -841,10 +818,10 @@
                         >
                           <span>Hue beef noodle soup</span>
                           <span class="text-primary">$1.3 - $2.2</span>
-
                         </h5>
                         <small class="fst-italic"
-                          >INoodles cooked in beef broth and seafood, served with raw vegetables, pho cakes and spices.</small
+                          >INoodles cooked in beef broth and seafood, served
+                          with raw vegetables, pho cakes and spices.</small
                         >
                       </div>
                     </div>
@@ -863,10 +840,10 @@
                         >
                           <span>Hainam Chicken Rice</span>
                           <span class="text-primary">$1.3 - $1.9</span>
-
                         </h5>
                         <small class="fst-italic"
-                          >White rice served with tender grilled chicken, ginger fish sauce, raw vegetables and patties.</small
+                          >White rice served with tender grilled chicken, ginger
+                          fish sauce, raw vegetables and patties.</small
                         >
                       </div>
                     </div>
@@ -885,10 +862,10 @@
                         >
                           <span>Barbecue sandwiches</span>
                           <span class="text-primary">$1.3</span>
-
                         </h5>
                         <small class="fst-italic"
-                          >Bread rolls filled with grilled pork, raw vegetables and spices.</small
+                          >Bread rolls filled with grilled pork, raw vegetables
+                          and spices.</small
                         >
                       </div>
                     </div>
@@ -907,10 +884,10 @@
                         >
                           <span>Nam Vang noodle soup</span>
                           <span class="text-primary">$1.3 - $2.6</span>
-
                         </h5>
                         <small class="fst-italic"
-                          >Noodles or noodles in pork, seafood or chicken broth, served with spices and raw vegetables.</small
+                          >Noodles or noodles in pork, seafood or chicken broth,
+                          served with spices and raw vegetables.</small
                         >
                       </div>
                     </div>
@@ -929,10 +906,10 @@
                         >
                           <span>Fried basa fish</span>
                           <span class="text-primary">$0.65 - $1.3</span>
-
                         </h5>
                         <small class="fst-italic"
-                          >Deep-fried basa fish, served with sweet and sour fish sauce, raw vegetables and fresh vermicelli.</small
+                          >Deep-fried basa fish, served with sweet and sour fish
+                          sauce, raw vegetables and fresh vermicelli.</small
                         >
                       </div>
                     </div>
@@ -951,10 +928,10 @@
                         >
                           <span>Crab soup cake</span>
                           <span class="text-primary">$1.3 - $2.2</span>
-
                         </h5>
                         <small class="fst-italic"
-                          >Noodles or vermicelli noodles in a rich broth, accompanied by shrimp, pork, crab or seafood.</small
+                          >Noodles or vermicelli noodles in a rich broth,
+                          accompanied by shrimp, pork, crab or seafood.</small
                         >
                       </div>
                     </div>
@@ -973,10 +950,10 @@
                         >
                           <span>Hot pot</span>
                           <span class="text-primary">$1.3</span>
-
                         </h5>
                         <small class="fst-italic"
-                          >Delicious broth hot pot, can choose meats, seafood, raw vegetables and noodles or vermicelli.</small
+                          >Delicious broth hot pot, can choose meats, seafood,
+                          raw vegetables and noodles or vermicelli.</small
                         >
                       </div>
                     </div>
@@ -995,10 +972,10 @@
                         >
                           <span>Beef stock</span>
                           <span class="text-primary">$0.87 - $1.74 </span>
-
                         </h5>
                         <small class="fst-italic"
-                          >Beef stock is in tomato sauce, spices and served with white rice.</small
+                          >Beef stock is in tomato sauce, spices and served with
+                          white rice.</small
                         >
                       </div>
                     </div>
@@ -1012,12 +989,12 @@
     </section>
     <!-- footer -->
     <section class="footer pt-5">
-      <div class="text-center  mt-5 custom-navbar">
+      <div class="text-center mt-5 custom-navbar">
         <div class="pt-5 footer-menu">
-          <a href="home.html">Home</a>
-          <a href="#about">About</a>
-          <a href="#wrapper">Blogs</a>
-          <a href="#contact">Contact</a>
+          <a href="index.html">Home</a>
+          <a href="travel.html">Travel</a>
+          <a href="culture.html">Culture</a>
+          <a href="cuisine.html">Cuisine</a>
         </div>
         <div class="container pt-4">
           <!-- Section: Social media -->

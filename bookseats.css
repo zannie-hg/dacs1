@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+:root {
+  --peru: #ee4540;
+  --black: #222;
+  --white: #fff;
+  --light-black: #666;
+  --light-white: #ccc;
+  --light-bg: #f5f5f5;
+  --dark-bg: rgba(0, 0, 0, 0.7);
+  --border: 0.1rem solid #aaa;
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+* {
+  font-family: "Barlow Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.43, 1.1, 0.62, 1.08);
+}
+
+/*--------------------------------------------------------------
+# head
+--------------------------------------------------------------*/
+.custom-navbar {
+  background: linear-gradient(to right, #f7ad88, #f87197);
+  z-index: 100;
+}
+
+.header .navbar a {
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+  color: var(--light-black);
+  text-transform: uppercase;
+}
+
+.header .navbar .logout {
+  padding-right: 20px;
+}
+.header .navbar .logo span {
+  font-size: 1rem;
+  font-family: "Kalam", cursive;
+  color: #8e3305;
+  text-transform: none;
+}
+.header .navbar a:hover {
+  color: black;
+}
+.header .navbar ul {
+  color: rgb(98, 98, 98);
+}
+
+/*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+.footer-menu a {
+    text-decoration: none;
+    color: rgb(225, 222, 222);
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  .footer-menu a:hover {
+    color: rgb(255, 6, 89);
+  }
+  .btn-link i:hover {
+    color: rgb(255, 6, 89);
+  }
+  h1.heading {
+    font-size: 1.15em;
+    font-weight: 900;
+    margin: 0 0 0.5em;
+    color: #505050;
+    text-align: center;
+  }
+  @media (min-width: 450px) {
+    h1.heading {
+      font-size: 3.55em;
+    }
+  }
+  @media (min-width: 760px) {
+    h1.heading {
+      font-size: 3.05em;
+    }
+  }
+  @media (min-width: 900px) {
+    h1.heading {
+      font-size: 3.25em;
+      margin: 0 0 0.3em;
+    }
+  }
+  /* YOUR SHOPPING CART */
+.pay-product{
+    border-radius: 4px;
+}
+.custom-placeholder::placeholder {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+.custom-pay{
+    background-color: #fcbdc3;
+    color:black
+}
+.child-2{
+   z-index: 1; 
+   text-align: center;
+}
+.pay-bar{
+border:1px solid pink;
+border-radius: 3px;
+}
+.child-2 .heading{
+    background-color: #f99d70;
+    font-size: 1.5rem;
+    
+}
+.child-2 .paybar-price{
+    font-size: 1.5rem;
+}
+.child-2 .btn{
+    border-radius: 0;
+    background-color: #f99d70;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+.child-2 .btn:hover{
+    background-color: white;
+    color:#f87197;
+    border: 3px solid #f87197;
+    border-radius: 5px;
+}
